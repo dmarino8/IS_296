@@ -22,8 +22,8 @@ public class ProductsController {
         Product soy = new Product();
         soy.setId(1);
         soy.setCrop("corn");
-        soy.setName("usa michigan corn");
-        productRepo.put(1, soy);
+        soy.setName("usa nebraska soy");
+        productRepo.put(2, soy);
     }
 
     @RequestMapping("/")
@@ -39,9 +39,9 @@ public class ProductsController {
         return modelAndView;
     }
 
-    @RequestMapping(value="/viewById", method=RequestMethod.GET)
+    @RequestMapping(value="/viewById", method = RequestMethod.GET)
     public ModelAndView viewById(
-            @RequestParam(value="id",required = true) Integer id
+            @RequestParam(value = "id", required = true) Integer id
     ) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("product-data");

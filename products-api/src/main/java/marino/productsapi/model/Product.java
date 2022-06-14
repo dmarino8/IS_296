@@ -24,13 +24,13 @@ public class Product {
     // Setters
     //*****************************************
     public void setId(Integer id) {
-        id = id;
+        this.id = id;
     }
     public void setName(String name) {
-        name = name;
+        this.name = name;
     }
     public void setCrop(String crop) {
-        crop = crop;
+        this.crop = crop;
     }
 
     //*****************************************
