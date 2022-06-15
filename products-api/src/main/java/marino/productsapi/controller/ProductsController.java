@@ -1,6 +1,7 @@
 package marino.productsapi.controller;
 
 import marino.productsapi.model.Product;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
 
+@Controller
 public class ProductsController {
     static HashMap<Integer, Product> productRepo = new HashMap<>();
 
@@ -20,7 +22,7 @@ public class ProductsController {
         productRepo.put(1, corn);
 
         Product soy = new Product();
-        soy.setId(1);
+        soy.setId(2);
         soy.setCrop("corn");
         soy.setName("usa nebraska soy");
         productRepo.put(2, soy);
@@ -36,6 +38,7 @@ public class ProductsController {
         //@link product-data.html
         modelAndView.setViewName("product-data");
         modelAndView.addObject("product", product);
+        productRepo.put(product.getId(), product);
         return modelAndView;
     }
 
