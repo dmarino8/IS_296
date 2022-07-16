@@ -1,0 +1,30 @@
+REQRES fake data for testing frontend applications
+
+user-interface		api		mongodb database
+presentation				stores data in nosql format
+thymeleaf
+angularjs
+react
+			spring web
+			controllers
+			restcontrollers
+
+------------------------------------------------------------------------------------------------------------
+			cutomer reviews
+			-------------------> (get requests, put requests, post requests, delete requests)
+Arrange Act Assert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
