@@ -1,0 +1,10 @@
+4. Could have missed a dependencies
+12. Maven could have not be set to bundled
+13. Directory structure could be set incorrectly
+14. Server port could be set to incorrect port
+17. Controller could have been pointing at incorrect html file. Return for game() could have been spelled incorrectly leading to the the html file not to be targeted and accessed
+18. Another possible problem is that game.html isnt put into the templates directory
+19. Anything could have gone wrong with the script
+22. When logging in, the incorrect password could have been entered
+23. When logging in, the incorrect username could have been used
+25. If you dont got to /tictactoe you wont be able to access the tictactoe game because we did not set the default '/' to the "home" html file.

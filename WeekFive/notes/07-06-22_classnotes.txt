@@ -1,0 +1,38 @@
+CRUD
+Create Read Update Delete
+
+HTTP
+Post Get Put Delete
+
+SQL
+Insert Select Update Delete
+
+
+Presentation      Endpoints	     Database
+-----------  GET   -------  SELECT    ------
+|	  |  -->   |     |   -->      |    |
+| ESPN UI |        | API |            | DB |
+|	  |  <--   |     |   <--      |    |
+-----------        -------            ------
+
+
+
+API
+Listening
+Controller
+Endpoints
+
+Service
+Business Logic
+
+Repository
+Specific DB Item
+
+
+Biz Logic
+Domain <-- learing about the busniess, the rules, roles, products
+------
+Transformation <-- data transformation
+
+
+
