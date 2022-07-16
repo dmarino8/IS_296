@@ -1,0 +1,48 @@
+Annotations should be reviewed often especially when working with spring boot
+Servant leaders, project manager, reporting
+Thymeleaf spring boot tool user interface
+What kinds of applications don't use API's?
+Q: all applications use api's
+Q: applications like facebook
+A: client-side only applications
+
+Principles
+1. Separation of concerns
+	a. User Interface
+	b. API
+	c. Database
+2. Where to find things
+
+Analogies
+1. Automobile repair
+
+Checklist
+1. Aircraft analogy
+
+User Interface
+Products User Interface 
+Thymeleaf
+What you see and interact with
+Shows information
+	Product Name
+	Product ID
+Specifics
+	Crops
+*************************************************
+API
+Web
+Endpoint, CRUD
+Controller, RequestMapping
+	View existing products
+	Get products by ID
+*************************************************
+Database
+H2 (in memory)
+JPA
+Where data is stored, encrypted, secured, etc.
+Requirmenents
+Product
+	Id
+	Name
+	Type
+*********************product*********************
