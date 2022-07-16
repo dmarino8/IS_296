@@ -1,0 +1,8 @@
+MongoDB <-- document database
+Instead of storing data in tables, it stores them in json (JavaScript Object Notation)
+MVC (model view controller)
+
+Model class will be read an interpreted as a way to connect the data you have in the portion of code you have to a view.
+
+
+Brain and heart like to different databases

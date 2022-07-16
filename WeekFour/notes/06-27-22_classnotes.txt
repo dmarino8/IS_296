@@ -1,0 +1,45 @@
+Jason Richardson
+
+Maven
+Java 8
+Spring boot (default) 2.7.1
+
+Dev tools - live reload, does useful things, adds things to the h2 console, debugging
+Thymeleaf - front end, dynamic interfaces
+Web - restful api
+H2 - memory database
+JPA - persists sql
+Lombok - reduces boiler plate
+
+@Controller - this java class is going to listen for request and reroute to an html file
+@Rest - will listen for http request from an api
+
+HTML files go into the templates directory within the resources folder.
+
+xmlns="https://www.w3.org/1999/xhtml"
+xmlns:th="https://www.thymeleaf.org">
+
+HTML5 <-- specific html we use
+
+resources --> static --> images
+
+<img th:src="@{/images/********.png.jpg}"/>
+
+Thymeleaf tags are used to point to specific file paths.
+
+@Data - Creates getters and setters automatically
+@RequiredArgsConstructor - 
+
+ENUM - List of valid options
+
+Models are for keeping track of every object in app
+
+REST is refering to requests
+Representational State Transfer
+
+Reroute or respond
+
+th:each for every option in our rack I want you to create the html for this.
+${****} is referencing the data that it is expecting.
+
+@Slf4j is a logging framework. Prints specfic information to the console. Other tech will scan theses logs to find out if its all running correctly.
