@@ -1,0 +1,20 @@
+Hamcrest
+-Hamcrest is a framework for writing test. It allows for greater control on the different aspects of your test. Hamcrest lets you make "just right" tests that are not brittle to change and are still effective.
+-Hamcrest has a range of different matcher functions. Core, Logical, Object, Beans, Collections, Number, and Text matcher functions.
+-Hamcrest also allows for you to create custom matchers. This option helps eliminate code duplications and makes tests more readable.
+
+Assertions in TestNg
+-You can use TestNg to test things directly in the browser. For example you can test the title of a webpage.
+-TestNg uses Assert to do testing, there are numerous different types of asserts. Conditional, type and equal.
+-To use a browser you would use drivers. TestNg has drivers for most browsers, in the examples they use firefox.
+-When using selenium along side TestNg, you can now take screenshots of the browser when an error occurs. Thought that was pretty cool.
+
+Behavior Driven Development
+-Gherkin is a language used to describe what tests do. Its a way to structure a test description to cover all the bases.
+-It provides steps, background, scenario, etc.
+-Gherkin is also a way to plan a program. It provides a way to format your thoughts into something constructive and uniform.
+-Everything is organized into a feature, each feature typically has 5 to 20 scenarios, each scenario has an inital context, an event, and an expected outcome.
+
+Spring Boot Apache Kafka
+-A message dependecy that can be added to Spring boot.
+-

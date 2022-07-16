@@ -1,0 +1,29 @@
+TDD
+Test Driven Development
+Creating Tests first.
+Create code that passes the test second.
+
+Red, Green, Refactor
+Red: write a test that fails.
+	Write a test that does not pass.
+Green: write code that allows the test to pass.
+	Write only enough code to get the test to pass.
+Refactor: improve the code, and make sure it still passes.
+	Make sure the code meets team standards.
+	Make sure the code is organized, indented well, readable, documented.
+	Make sure that it still works.
+
+Benefits:
+Often, if you don't write tests up front, they don't get written at all.
+They provide the opportunity to clarify exactly what the requirements are at the beginning, so that there are no surprises late... or at least, a few surprises as possible.
+Confidence, confidence, confidence... because... you know that your work, works... before you tell your team or tech lead that you're done and that your code works.
+Regression testing and confidence: you know that code you wrote a year ago, still works... without taking more and more of your time to manually test it and make sure it works.
+
+Gherkin
+Given When Then
+	Given a situation
+	When I take one or more actions
+	Then I assert upon an expected result
+Testing
+
+Arrange, Act
