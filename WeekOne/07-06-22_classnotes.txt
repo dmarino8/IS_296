@@ -1,0 +1,8 @@
+CRUD
+Create Read Update Delete
+
+HTTP
+Post Get Put Delete
+
+SQL
+Select Update Insert Delete

@@ -1,0 +1,34 @@
+Analogies
+
+1. Thanksgiving dressing 
+
+2. Telephone
+	a. User Interface (like on your phone) --> API --> Database
+	b. User Interface (like on your phone) <-- API <-- Database
+	c. Banking app, Game
+	d. Phone number ... URL ... endpoint ... request type (get, post, put, delete)
+
+3. Bank Teller
+	a. Going to bank, ask them for $200
+	b. Security
+	c. Standard requests: put in money (Create), get account balance (Read), move money in accounts (Update), get money out (Delete)
+
+4. Interpreter
+	a. Interpret English to Spanish and vice versa
+	b. API communicate w/ database
+
+5. Roads
+	a. Roads aka streets
+	b. Roads help us get from one place to another, i.e from home to restaurants
+	c. Google maps ... put in a destination and it gives us directions
+	d. Address
+	e. Networks ...
+
+@RestController
+@RestMapping
+ResponseEntity<Object>
+https://www.tutorialspoint.com/spring_boot/spring_boot_building_restful_web_services.html
+
+
+
+
