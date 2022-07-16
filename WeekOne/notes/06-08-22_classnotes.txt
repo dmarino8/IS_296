@@ -1,0 +1,35 @@
+Take great notes!
+It will take notice
+-Jayson
+
+Remember to reload the maven project
+Go to the pom.xml file and select maven --> reload project
+
+This will reload the maven dependecies.
+.\mvnw.cmd -U marino.apudr idea:idea
+
+This fixed the issue.
+<version>${project.parent.version}</version>
+
+VM password : Pw123456
+
+Questions
+The sdk version should match the spring version?
+
+How to run a spring boot project through command-line.
+./mvnw spring-b
+
+Typically data will be loaded from a database
+
+Starting with static is safer
+Could also use a fake database to practice
+
+This is how we are printing into Spring App
+public ResponseEntity<Object> getDrones() {
+        return new ResponseEntity<(droneRepo.values(), HttpStatus.OK);
+}
+
+Spring defaults to GET request if not defined
+
+Use @PathVariable to use defined part of url as a value of a variable
+Use @RequestBody to get something from the body? maybe? 

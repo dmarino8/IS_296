@@ -1,0 +1,60 @@
+api's
+middle layer
+
+
+************************
+	crud
+************************
+create, read, update, delete
+
+
+************************
+	web verbs
+************************
+http verbs
+get, put, post, delete
+
+
+************************
+	dataIT
+************************
+postgres
+-	relational
+-	sql
+mongodb
+-	document database
+-	json
+--		javascript object notation
+
+
+************************
+	API's
+************************
+building, enhancing
+testing
+securing
+deploying
+
+How Spring has made software development easier.
+Spring Boot, comes from Spring family of technology.
+
+Project-based.
+Re-implementing
+Making a change, creatively.
+
+
+************************
+	Github
+************************
+
+Q: connecting to github
+
+
+
+
+
+
+
+
+
+
