@@ -1,0 +1,22 @@
+UI ThymeLeaf
+API Web
+DB H2 JPA
+
+1. Where is site?
+2. How to order
+3. Where to deliver?
+
+
+UI 	----> 	API  ----> 	DB
+	Order	     Order
+
+	Result	     Result
+UI	<-----	API  <-----	DB
+
+
+
+
+
+
+
+		
