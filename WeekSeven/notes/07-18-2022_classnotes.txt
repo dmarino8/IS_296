@@ -1,0 +1,57 @@
+Annotations @
+SpringBootApplication
+Autowired
+Controller
+RestController
+	-Get
+	-Put
+	-Post
+	-Delete
+Data
+ID
+GetMapping
+PostMapping
+PutMapping
+DeleteMapping
+
+Annotations are ways to add code boilerplate code in an easy way.
+It defines how the framework should implement and use the code annotate
+
+MVC and N-Tier
+Model
+	- What you store, track, and provide
+View
+	- What you see
+Controller
+	- How you listen
+
+Controllers
+	- Listen and respond
+Service
+	- Decide and transform
+Repositories
+	- Directly connects to databases
+
+Models
+------
+Templates
+
+
+Troubleshooting
+---------------
+instructions
+	- like the homework
+proofreading
+	- typos
+error messages
+	- useful info that the computer provides to try and help
+compare and contrast
+print messages
+breakpoints
+	- stops the program at a specific spot of code
+rubber ducking
+	- talking to someone about it
+asking
+	- asking for help or just talking to someone about it
+logs
+
