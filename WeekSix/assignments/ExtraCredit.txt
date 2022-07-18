@@ -2,6 +2,7 @@ Hamcrest
 -Hamcrest is a framework for writing test. It allows for greater control on the different aspects of your test. Hamcrest lets you make "just right" tests that are not brittle to change and are still effective.
 -Hamcrest has a range of different matcher functions. Core, Logical, Object, Beans, Collections, Number, and Text matcher functions.
 -Hamcrest also allows for you to create custom matchers. This option helps eliminate code duplications and makes tests more readable.
+-There are different types of frameworks as well. Hamcrest can be used with JUnit and TestNG. It is able to adapt to different testing frameworks by using JMock 1 adaptor.
 
 Assertions in TestNg
 -You can use TestNg to test things directly in the browser. For example you can test the title of a webpage.
@@ -16,5 +17,15 @@ Behavior Driven Development
 -Everything is organized into a feature, each feature typically has 5 to 20 scenarios, each scenario has an inital context, an event, and an expected outcome.
 
 Spring Boot Apache Kafka
--A message dependecy that can be added to Spring boot.
--
+-A messaging system is the solution to the difficulties of working with Big Data. Kafka is a messaging system that is available with spring boot as a dependecy.
+-There are three java classes needed, one to produce the message, one to listen and respond tot he message and a controller to control the flow of traffic.
+-Producing messages can be done with a configuration class. This class will collect relevant data and send a message.
+-Consuming a message cna be done with a consumer class. This class will listen for messages sent to it and will output a result.
+-The application runner, controls the flow of traffic and sets how the listener and messager will interact with each other.
+
+REST API Secure
+-Secure REST API, are rtansactions that need to be authorized to be processed. This security can be done using Spring Security and Spring boot.
+-The type of authroization used in the article is called OAuth2 authorization. OAuth 2 authorization framework limits the ability of third-party applications to access a HTTP service.
+-Too implement this in Spring Boot, you can directly load the security oauth2 with spring inilizar
+-There are three roles. The resource server, web security setup, and the actual http controller.
+ 
