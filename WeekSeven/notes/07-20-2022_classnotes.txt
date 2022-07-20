@@ -1,0 +1,46 @@
+HTTP
+Post 	Create	Insert
+Get	Read	Select
+Update	Update	Update
+Delete	Delete	Delete
+
+Elaboration
+Problem to solve
+How is it done today?
+What are teh current Limits?
+
+Resolving Ambiguity and asking clarifying questions
+
+Non-Functional	Functional
+Security	What user
+Testing		sees and does
+Readability	step by stepVie
+
+N-Tier
+Model
+	What you store
+View
+	What you see
+Controller
+	How you listen
+RestController
+	End Points
+
+Interfaces
+Parent and child classes
+Extends
+Objects
+
+When parent class is an interface use the implements keyword to inherit
+When parent class is a regular class, use the extends keyword to inherit
+In heritance saves time because you reuse working code
+
+Interfaces
+------------------------
+Define the methods that will be implemented by any classes that inheriet-
+-from the interface
+Define a list of signatures
+<Return Type> <Method Name>(0+ parameters)
+
+
+
