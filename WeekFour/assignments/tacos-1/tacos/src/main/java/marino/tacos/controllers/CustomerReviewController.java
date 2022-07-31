@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:8081, http://localhost:8080")
+@CrossOrigin
 @RestController
     @RequestMapping("/api")
 public class CustomerReviewController {
